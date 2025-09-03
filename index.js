@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-// Function to convert a string from given base to decimal using BigInt
+// Function to convert a string from given base to decimal using BigInt  
 function baseToDecimal(value, base) {
     let result = BigInt(0);
     let multiplier = BigInt(1);
